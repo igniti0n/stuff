@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 
 class CircularShadowStepper extends CustomPainter {
   final double strokeWidth;
-  final int numberOfCollectedFragments;
+  final int numberOfDivisions;
 
   double blur;
 
   CircularShadowStepper({
     required this.strokeWidth,
     required this.blur,
-    required this.numberOfCollectedFragments,
+    required this.numberOfDivisions,
   });
 
   @override
@@ -42,7 +42,7 @@ class CircularShadowStepper extends CustomPainter {
         true,
       );
       // Draw shadow and indicator for every collected fragment
-      if (i < numberOfCollectedFragments) {
+      if (i < numberOfDivisions) {
         // Shadow
         shadowPath.arcTo(
           Rect.fromLTWH(

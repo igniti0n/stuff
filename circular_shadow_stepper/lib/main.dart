@@ -1,4 +1,4 @@
-import 'package:circular_shadow_stepper/prize_painter.dart';
+import 'package:circular_shadow_stepper/circular_shadow_stepper.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   painter: CircularShadowStepper(
                     strokeWidth: 10,
                     blur: 4,
-                    numberOfCollectedFragments: 4,
+                    numberOfDivisions: 4,
                   ),
                 ),
               ),
