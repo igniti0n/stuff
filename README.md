@@ -1,8 +1,9 @@
- - Stuff in other repos -
+ ## Stuff in other repos 
 
-FLUTTER - NATIVE - watchOS : https://github.com/igniti0n/flutter_watch_OS
-NATIVE - watchOS : https://github.com/igniti0n/watchApp
+- FLUTTER - NATIVE - watchOS : https://github.com/igniti0n/flutter_watch_OS
 
- - Bricks -
+- NATIVE - watchOS : https://github.com/igniti0n/watchApp
 
- https://github.com/igniti0n/bricks
+ ## Bricks 
+
+ - https://github.com/igniti0n/bricks
